@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resourMTA - Recursos para MTA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .resource {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .resource:last-child {
+            border-bottom: none;
+        }
+        .resource a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .resource a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>resourMTA - Recursos para MTA</h1>
+        <div class="resource">
+            <h2>Recurso 1</h2>
+            <p>Descripción breve del recurso 1 para MTA.</p>
+            <a href="#">Enlace al recurso 1</a>
+        </div>
+        <div class="resource">
+            <h2>Recurso 2</h2>
+            <p>Descripción breve del recurso 2 para MTA.</p>
+            <a href="#">Enlace al recurso 2</a>
+        </div>
+        <div class="resource">
+            <h2>Recurso 3</h2>
+            <p>Descripción breve del recurso 3 para MTA.</p>
+            <a href="#">Enlace al recurso 3</a>
+        </div>
+    </div>
+</body>
+</html>
